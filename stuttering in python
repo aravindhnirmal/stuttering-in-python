@@ -1,0 +1,6 @@
+def stutter(word):  
+    s = word[:3]    
+    return (3 * (s + '... ')) + word + '?'
+
+
+print(stutter("incredible"))
